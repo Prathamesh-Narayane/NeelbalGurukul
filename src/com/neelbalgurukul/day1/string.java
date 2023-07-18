@@ -7,9 +7,10 @@ public class string {
 		int x=7;
 		int y=3;
 		System.out.println(x+y+"has a sum"+x+y);
-		System.out.print(x+y+"has a sum"+(x+y));
+		System.out.println(x+y+"has a sum"+(x+y));
 		
+		System.out.println("hi");
 
 	}
-
+         
 }
