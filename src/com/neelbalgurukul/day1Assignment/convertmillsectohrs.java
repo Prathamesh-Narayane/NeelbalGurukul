@@ -1,10 +1,13 @@
 package com.neelbalgurukul.day1Assignment;
+import java.util.*;
 
 public class convertmillsectohrs {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		int millsec =7000234;
+		Scanner sc=new Scanner(System.in);
+//		7000234
+		int millsec =sc.nextInt();
 		int seconds = millsec/1000;
 			
 			
