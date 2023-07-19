@@ -9,12 +9,12 @@ public class Q3calculateexpoentialseries {
 
 		double x = sc.nextDouble();
 		x = Math.toRadians(x);
-		int number = sc.nextInt();
+		int n = sc.nextInt();
 		double sum = 1;
 		double num = -(Math.pow(x, 2));
 		double fact = 1;
 
-		for(int i=1;i<=number;i++) {
+		for(int i=1;i<=n;i++) {
 			fact = fact*i;
 			if(i%2==0) {
 				sum = sum + ((num)/fact);
@@ -22,6 +22,7 @@ public class Q3calculateexpoentialseries {
 			}
 		}
 		System.out.print(sum);
+		System.out.print(Math.exp(x));
 	}
 	}
 

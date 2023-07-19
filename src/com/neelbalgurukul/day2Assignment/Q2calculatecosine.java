@@ -23,7 +23,7 @@ public class Q2calculatecosine {
 			}
 		}
 		System.out.println(sum);
-
+		System.out.println(Math.cos(sum));
 	}
 	}
 

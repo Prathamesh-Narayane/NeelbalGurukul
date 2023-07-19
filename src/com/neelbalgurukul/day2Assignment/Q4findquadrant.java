@@ -19,6 +19,9 @@ public class Q4findquadrant {
 		
 		else if(x>0 && y<0)
 			System.out.println(x +" & "+ y +" in the fourth quadrant ");
+		else if(x==0 && y>0)
+			System.out.println
+		
 		else
 			System.out.println(x +" & "+ y +"origin");
 	}
