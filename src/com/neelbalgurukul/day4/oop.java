@@ -23,6 +23,8 @@ public class oop {
 		Employee c =new Employee("rajesh",3,45000,"IT");
 		
 		System.out.print(a);
+		System.out.print(b);
+		System.out.print(c);
 		
 		
 		
@@ -44,6 +46,8 @@ public class oop {
 		}
 		System.out.print("salary of c is higher");
 	}
+	
+		a.setsalary(a.setsalary()+a.setsalary()2.0/100)
 		
 		
 
